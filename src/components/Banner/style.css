@@ -1,0 +1,48 @@
+
+
+.banner{
+    display: flex;
+    align-items: center;
+    max-width: max-content;
+}
+
+
+
+.title{
+    font-family: Nunito;
+    font-weight: bold;
+    font-size: 25px;
+    position: absolute;
+    color: #FFFFFF;
+    width: 450px;
+    left: 150px;
+    top: 150px;
+   
+}
+
+.title h3{
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 10px;
+}
+
+.title h2{
+    font-weight: bold;
+    font-size: 45px;
+    line-height: 50px;
+    width: 450px;
+    
+}
+
+.background-image img{
+    width: 100%;
+}
+
+
+/* .banner .photobc img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+} */
+
+

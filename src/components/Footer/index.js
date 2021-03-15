@@ -1,11 +1,9 @@
 import React from "react";
 import "./style.css";
-import mail from "../Imagens/mail.png"
+import mail from "../Imagens/mail.png";
 import headset from "../Imagens/headset.png";
 import corebiz from "../Imagens/corebiz.png";
 import vtex from "../Imagens/vtex.png";
-
-
 export default function Footer(){
     return(
         <div className="footer">
@@ -19,14 +17,14 @@ export default function Footer(){
             <section className="contact">
                 <ul>
                     <li>
-                        <a href="/fale conosco">
-                            <img src={mail} alt=""></img>
+                        <a href="#">
+                            <img src={mail} alt=" "></img>
                             <p>Entre em contato</p>
                         </a>
                     </li>
                     <li>
-                        <a href="/chat">
-                            <img src={headset}></img>
+                        <a href="#">
+                            <img src={headset} alt=" "></img>
                             <p>Fale com o nosso consultor online</p>
                         </a>
                     </li>
@@ -39,7 +37,7 @@ export default function Footer(){
                 </div>
                 <div>
                     <p>Powered by</p>
-                    <img src={vtex}></img>
+                    <img src={vtex} alt="VTEX"></img>
                 </div>
             </section>
         </div>

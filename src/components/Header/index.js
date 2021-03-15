@@ -20,13 +20,13 @@ export default function Header(){
       </form>
       <section className="profile">
          <a href="#">
-            <img src={user} className="user"></img>
+            <img src={user} className="user" alt=" "></img>
             <p>Minha Conta</p>
          </a>
          </section>
          <div className="cart">
             <a href="#">
-            <img src={cart}></img>
+            <img src={cart} alt=" "></img>
             </a>
             <spam className="cart-notfication">1</spam>
          </div>

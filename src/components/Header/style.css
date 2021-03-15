@@ -1,7 +1,6 @@
 html{
     box-sizing: border-box;
-    font-size: 62.5%;
-    
+    font-size: 62.5%;  
 }
 
 
@@ -11,7 +10,8 @@ html{
     justify-content: space-evenly;
     margin-bottom: 2.4rem;
     margin-top: 1.6rem;
-    padding: 0 25rem;
+   
+    
 }
 
 .logo{
