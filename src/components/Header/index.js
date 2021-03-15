@@ -19,7 +19,7 @@ export default function Header(){
          </a>
       </form>
       <section className="profile">
-         <a href="#">
+         <a href="/usuario">
             <img src={user} className="user" alt=" "></img>
             <p>Minha Conta</p>
          </a>
