@@ -17,13 +17,13 @@ export default function Footer(){
             <section className="contact">
                 <ul>
                     <li>
-                        <a href="#">
+                        <a href="/fale conosco">
                             <img src={mail} alt=" "></img>
                             <p>Entre em contato</p>
                         </a>
                     </li>
                     <li>
-                        <a href="#">
+                        <a href="/chat">
                             <img src={headset} alt=" "></img>
                             <p>Fale com o nosso consultor online</p>
                         </a>

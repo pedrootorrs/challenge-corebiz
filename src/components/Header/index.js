@@ -14,7 +14,7 @@ export default function Header(){
       <img src={logo} className="logo" alt="logo"></img>
       <form action="#" className="searchCore" method="post">
          <input className="search" placeholder="O que você está procurando?" type="text" ></input>
-         <a href="#" >
+         <a href="/busca" >
          <img src={search} className="search-icon" alt="search"></img>
          </a>
       </form>
@@ -25,7 +25,7 @@ export default function Header(){
          </a>
          </section>
          <div className="cart">
-            <a href="#">
+            <a href="/carrinho">
             <img src={cart} alt=" "></img>
             </a>
             <spam className="cart-notfication">1</spam>
