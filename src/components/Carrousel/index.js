@@ -39,7 +39,7 @@ export default function Carrousel(){
                         <spam className="product__box--star">
                         &#9733; &#9733; &#9733; &#9733; &#9734; 
                         </spam>
-                        <h4 className="product__box--pricedescripton">de R$ 299,00</h4>
+                        <h4 className="product__box--pricedescripton ">de R$ 299,00</h4>
                         <h2 className="product__box--price"> por R$ 199,00</h2>
                         <h4 className="product__box--price2">ou em 4x de R$ 49,75</h4>
                         <div className="product__box-button-content">
@@ -58,7 +58,7 @@ export default function Carrousel(){
                         <spam className="product__box--star">
                         &#9733; &#9733; &#9734; &#9734; &#9734; 
                         </spam>
-                        <h4 className="product__box--pricedescripton">de R$ 329,00</h4>
+                        <h4 className="product__box--pricedescripton product__box--pricedescripton--bota">de R$ 329,00</h4>
                         <h2 className="product__box--price"> por R$ 299,00</h2>
                         <h4 className="product__box--price2">ou em 10x de R$ 29,90</h4>
                         <button className="product__box--button">comprar</button>

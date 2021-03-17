@@ -80,6 +80,8 @@ html{
     display: flex;
     flex-direction: column;
     align-items: center;
+    border-radius: 5px;
+    transition: all 0.3s;
 }
 
 
@@ -108,12 +110,23 @@ html{
     font-size: 12px;
     color: #7a7a7a;
     margin-bottom: -10px;
+    font-family: Nunito;
+}
+
+.product__box--pricedescripton--bota{
+    text-decoration-line: line-through;
+    
+}
+.product__box:hover {
+    background-color: #E6E8EA;
+
 }
 
 .product__box--button{
     text-transform: uppercase;
     width: 125.28px;
     height: 32.42px;
+    margin-bottom: 15px;
     border-radius: 5px;
     color: #ffffff;
     background: #FFFFFF;
@@ -138,10 +151,22 @@ html{
 .row--right{
     height: 22px;
     align-self: center;
+    transition: all 0.3s;
+    cursor: pointer;
 }
 
 .row--left{
     margin-left: 10px;
+    left: 35px;
+    position: relative;
 }
 
+.row--right{
+    right: 35px;
+    position: relative;
+}
 
+.row--left:active,
+.row--right:active{
+    transform: scale(1.2);
+}

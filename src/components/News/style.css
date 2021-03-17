@@ -43,5 +43,9 @@
     border:none;
     font-size: 14px;
     margin-left: 10px;
+    cursor: pointer;
+    transition: all 0.2s;
 }
-
+.buttonNews:active{
+    transform: translateY(-5px);
+}
