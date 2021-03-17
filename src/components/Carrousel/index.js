@@ -15,10 +15,10 @@ export default function Carrousel(){
                 <h3>Mais Vendidos</h3>
             </div>
             <div className="row">
-                <img src={left} className="row--left"></img>
+                <img src={left} className="row--left" alt="left"></img>
                 <div class="col-1-of-4">
                     <div className="product__box">
-                        <img src={sapato} className="product__box--imagem"></img>
+                        <img src={sapato} className="product__box--imagem" alr="sapato"></img>
                         <h3 className="product__box--name">Sapato floater preto</h3>
                         <spam className="product__box--star">
                         &#9733; &#9734; &#9734; &#9734; &#9734;
@@ -31,8 +31,8 @@ export default function Carrousel(){
                 <div className="col-1-of-4">
                 <div className="product__box">
                     <div className="box--imagem">
-                        <img src={sandalia} className="product__box--imagem product__box--imagem--off"></img>
-                        <img src={poligon} className="product__off"></img>
+                        <img src={sandalia} className="product__box--imagem product__box--imagem--off" alt="sandalia"></img>
+                        <img src={poligon} className="product__off" alt="polygon"></img>
                         <spam className="product__off--name">OFF</spam>
                     </div>
                         <h3 className="product__box--name">Sandália linho brown</h3>
@@ -50,8 +50,8 @@ export default function Carrousel(){
                 <div className="col-1-of-4">
                 <div className="product__box">
                     <div className="box--imagem">
-                        <img src={bota} className="product__box--imagem product__box--imagem--off"></img>
-                        <img src={poligon} className="product__off"></img>
+                        <img src={bota} className="product__box--imagem product__box--imagem--off" alt="bota"></img>
+                        <img src={poligon} className="product__off" alt="pilygon"></img>
                         <spam className="product__off--name">OFF</spam>
                     </div>
                         <h3 className="product__box--name">Bota mustang preto</h3>
@@ -66,7 +66,7 @@ export default function Carrousel(){
                 </div>
                 <div className="col-1-of-4">
                 <div className="product__box">
-                        <img src={cinto} className="product__box--imagem"></img>
+                        <img src={cinto} className="product__box--imagem" alt="cinto"></img>
                         <h3 className="product__box--name">Cinto semicromo preto 40MM</h3>
                         <spam className="product__box--star">
                         &#9733; &#9733; &#9733; &#9734; &#9734; 
@@ -75,7 +75,7 @@ export default function Carrousel(){
                         <button className="product__box--button">comprar</button>
                 </div>
                 </div>
-                <img src={right} className="row--right"></img>
+                <img src={right} className="row--right" alt="right"></img>
             </div>
         </div>
    
