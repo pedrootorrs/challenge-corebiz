@@ -1,0 +1,147 @@
+
+html{
+    box-sizing: border-box;
+    font-size: 62.5%;  
+}
+
+.carrousel{
+    margin-bottom: 50px;
+}
+
+.title--carrousel h3 {
+    
+    color: #000;
+    font-weight: 900;
+    font-family: Nunito;
+    font-size: 20px;
+    line-height: 27.28px;
+    margin-left: 4.5rem;
+    
+}
+
+.title--carrousel h3::after{
+    content: '';
+    display:block;
+    align-items: center;
+    justify-content: center;
+    width: 65px;
+    height: 4px;
+    background: #C0C0C0;
+}
+
+.row{
+    margin: 0 auto;
+    display: flex;
+    width: 90vw;
+    justify-content: space-between;
+    height: fit-content;
+   
+}
+
+.product__box--imagem{
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.product__off--name{
+    position: absolute;
+    top: 12px;
+    right: 10px;
+    font-family: Nunito;
+    font-weight: 900;
+    font-size: 16px;
+    color:#FFFFFF
+    
+}
+
+
+.box--imagem{
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.product__off{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.product__box--name{
+    font-family: Nunito;
+    font-weight: 600;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #7a7a7a
+}
+
+.product__box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.product__box--star{
+    color: #F8475F;
+    font-size: 14px;
+
+}
+
+.product__box--price{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24.55px;
+}
+
+.product__box--price2{
+    font-weight: 400;
+    font-size: 11px;
+    color: #7a7a7a;
+    line-height: 15px;
+    margin-top: -10px;
+}
+
+.product__box--pricedescripton{
+    font-weight: 400;
+    font-size: 12px;
+    color: #7a7a7a;
+    margin-bottom: -10px;
+}
+
+.product__box--button{
+    text-transform: uppercase;
+    width: 125.28px;
+    height: 32.42px;
+    border-radius: 5px;
+    color: #ffffff;
+    background: #FFFFFF;
+    border: white;
+    outline: white;
+    cursor: pointer;
+    transition: all .3s;
+   
+}
+
+.product__box:hover  .product__box--button{
+    background: black;
+    border: white;
+}
+
+.product__box--button:active{
+    transform: translateY(-5px) ;
+}
+
+
+.row--left,
+.row--right{
+    height: 22px;
+    align-self: center;
+}
+
+.row--left{
+    margin-left: 10px;
+}
+
+
