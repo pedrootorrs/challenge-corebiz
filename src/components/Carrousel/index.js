@@ -18,7 +18,7 @@ export default function Carrousel(){
                 <img src={left} className="row--left" alt="left"></img>
                 <div class="col-1-of-4">
                     <div className="product__box">
-                        <img src={sapato} className="product__box--imagem" alr="sapato"></img>
+                        <img src={sapato} className="product__box--imagem" alt="sapato"></img>
                         <h3 className="product__box--name">Sapato floater preto</h3>
                         <spam className="product__box--star">
                         &#9733; &#9734; &#9734; &#9734; &#9734;
